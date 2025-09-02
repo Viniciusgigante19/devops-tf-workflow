@@ -1,0 +1,23 @@
+name: Meu Primeiro Workflow-CI
+
+on: 
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'devops-tf-workflow/README.MD'
+
+jobs: 
+  meu-primeiro-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 6324558- Vinicius Gigante
+        run: echo "Vinicius Gigante 6324558"
+
+      - name: Mostra o diretório de trabalho
+        run: pwd
+
+      - name: Exibe o repositorio
+        run: |
+          echo "Repositório ${{ github.repository }}"
