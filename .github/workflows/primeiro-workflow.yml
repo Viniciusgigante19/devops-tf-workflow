@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths-ignore:
-      - 'devops-tf-workflow/README.MD'
+      - 'README.MD'
 
 jobs: 
   meu-primeiro-job:
